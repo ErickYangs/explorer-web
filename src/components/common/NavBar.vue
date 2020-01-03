@@ -127,7 +127,7 @@
               >
             </li>
 
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -153,7 +153,7 @@
                   }}</a
                 >
               </div>
-            </li>
+            </li> -->
 
             <li class="nav-item dropdown">
               <a class="nav-link" data-toggle="dropdown" href="#">

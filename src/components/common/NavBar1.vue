@@ -191,7 +191,7 @@
               </a>
             </li>
 
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle padding-lr0"
                 data-toggle="dropdown"
@@ -221,7 +221,7 @@
                   $t("navbar.top.statistics")
                 }}</a>
               </div>
-            </li>
+            </li> -->
           </ul>
 
           <ul

@@ -65,7 +65,7 @@ module.exports = {
   },
   searchInput: {
     search: "SEARCH",
-    placeholder: "ONT ID, Block Height, TX Hash",
+    placeholder: "ONT ID, Block Height, TX Hash, Address",
     slogan: "Blockchain Explorer & Trust Verifier"
   },
   runStatus: {
