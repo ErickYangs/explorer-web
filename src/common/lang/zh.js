@@ -66,7 +66,7 @@ module.exports = {
   searchInput: {
     search: "查询",
     placeholder: " ONT ID，区块高度，交易哈希，资产地址",
-    slogan: "区块链浏览器 & 可信验证器"
+    slogan: "分布式存储区块链浏览器"
   },
   runStatus: {
     name: "全网运行状态",

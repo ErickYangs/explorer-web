@@ -3,14 +3,14 @@
     <div class="nav-wrapper">
       <!--  Logo区域  -->
       <div v-if="isHome" class="left-model index-logo-warpper">
-        <img src="../../assets/logos/ontlogo.png" class="index-logo" />
+        <img src="../../assets/logos/ontfslogo.svg" class="index-logo" />
       </div>
       <div v-else class="left-model no-index-logo-warpper">
         <router-link
           class="navbar-brand"
           :to="{ path: $route.params.net === 'testnet' ? '/testnet' : '/' }"
         >
-          <img class="index-logo" src="../../assets/logos/logo.png" alt="" />
+          <img class="index-logo" src="../../assets/logos/ontfsb.svg" alt="" />
         </router-link>
       </div>
 
@@ -259,7 +259,7 @@ export default {
       isHome: true,
       monitor: "https://monitor.ont.io/",
       apiDocUrl: "https://dev-docs.ont.io/#/docs-en/explorer/overview",
-      nodelist: "https://node.ont.io",
+      nodelist: "http://node.ontfs.io",
       language: "en"
     };
   },

@@ -262,7 +262,7 @@ export default {
     },
     toOnlineNodes() {
       /* this.$router.push({ name: 'NodeStakeList'}) */
-      window.open("https://node.ont.io/");
+      window.open("http://107.150.112.169:80");
     },
     getNodeCountStatus() {
       this.$store.dispatch("getNodeCount").then();

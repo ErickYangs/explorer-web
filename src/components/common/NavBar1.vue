@@ -31,7 +31,7 @@
         >
           <!--  具体菜单区域  -->
           <div v-if="isHome" class=" col-2 index-logo-warpper">
-            <img src="../../assets/logos/ontlogo.png" class="index-logo" />
+            <img src="../../assets/logos/ontfslogo.svg" class="index-logo" />
           </div>
           <div v-else class=" col-2 no-index-logo-warpper">
             <router-link
@@ -40,7 +40,7 @@
             >
               <img
                 class="index-logo"
-                src="../../assets/logos/logo.png"
+                src="../../assets/logos/ontfsb.svg"
                 alt=""
               />
             </router-link>
@@ -336,7 +336,7 @@ export default {
       monitor: "https://monitor.ont.io/",
       apiDocUrl: "https://dev-docs.ont.io/#/docs-en/explorer/overview",
       language: "en",
-      nodelist: "https://node.ont.io/"
+      nodelist: "http://node.ontfs.io"
     };
   },
   mounted() {
